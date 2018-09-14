@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Particles</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background: #000000; */
+    }
+    #bg {
+      height: 100vh;
+      width: 100vw;
+      background-image: url("./face.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      /* opacity: 0.8; */
+    }
+    #particles-js{ 
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50%;
+      height: 32vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div id="bg"></div>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
